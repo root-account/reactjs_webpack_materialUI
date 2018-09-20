@@ -1,0 +1,29 @@
+npm i webpack --save-dev
+
+npm i webpack-cli --save-dev
+
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+npm i react react-dom --save-dev
+
+npm i html-webpack-plugin html-loader --save-dev
+
+npm i webpack-dev-server --save-dev
+
+
+npm i -D @babel/plugin-proposal-class-properties
+
+npm i -D babel-plugin-transform-class-properties
+
+
+
+*********** ADD THIS TO .babelrc **********************
+
+"plugins": [
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ]
+  ]
